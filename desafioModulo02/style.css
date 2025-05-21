@@ -1,0 +1,80 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'android';
+    src: url('fontes/idroid.otf')
+    format('opentype');
+}
+body{
+    margin: 0px;
+}
+
+header {
+    color: #F0FFF0;
+    padding: 10px;
+    background: linear-gradient(180deg, #00FF7F,#006400);
+    text-align: center;
+}
+main{
+    text-indent: 20px;
+    padding: 25px;
+    text-align: justify;
+    font-family: 'Inter', sans-serif;
+    border: 45px solid #16a71d94;
+    
+}
+
+#historiaMascote, #primeiraVersao, #surgeMascote{
+    text-indent: 0px;
+    color: #006400;
+    font-family: 'android';
+    font-weight: normal;
+    font-size: 26px;
+}
+#conteudoExtra{
+    font-family: 'Inter', sans-serif;
+    padding: 25px;
+    text-align: justify;
+}
+#menu{
+    text-align: left;
+}
+
+#home, #noticias, #curiosidades, #faleConosco {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+#home:hover, #noticias:hover, #curiosidades:hover, #faleConosco:hover {
+    background-color: rgba(255, 255, 255, 0.385);
+    color: #00FF7F;
+}
+footer{
+    color: white;
+    background-color: #057119;
+    text-align: center;
+      font-family: 'Inter', sans-serif;
+}
+
+#querAprender{
+    color: white;
+    background-color: #02c102e3;
+    padding: 8px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+#listaAndroid{
+color: black;
+    background-color: #5aff5a5c;
+    padding: 8px;
+    border-radius: 0px 0px;
+    margin-block: -18px;
+}
+
+#videoAndroid{
+    border: 15px solid #127612;
+}
+
+#encerramento{
+    padding: 10px;
+}
